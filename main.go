@@ -11,14 +11,6 @@ import (
 )
 
 func main() {
-	/*
-
-	   to run:
-
-	   $ go run main.go 23
-
-	*/
-
 	// seed
 	rand.Seed(time.Now().Unix())
 
