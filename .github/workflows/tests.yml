@@ -19,4 +19,5 @@ jobs:
         go-version: 1.15
 
     - name: Test
+      run: pwd 
       run: go test -v ./...
