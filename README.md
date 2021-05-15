@@ -7,6 +7,14 @@ A collection of basic computer science algorithms implemented in [Go](https://go
 
 The repo is created to teach myself Go.
 
+# todo
+
+ - [x] mergesort
+ - [ ] quicksort
+ - [ ] operations for heaps
+ - [ ] binary search
+ - [ ] increment a binary counter
+
 # credits
 
 github actions set with the help of [mvdan/github-actions-golang](https://github.com/mvdan/github-actions-golang)
