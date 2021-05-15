@@ -7,3 +7,7 @@ A collection of basic computer science algorithms implemented in [Go](https://go
 
 The repo is created to teach myself Go.
 
+# credits
+
+github actions set with the help of [mvdan/github-actions-golang](https://github.com/mvdan/github-actions-golang)
+
