@@ -18,8 +18,8 @@ jobs:
       with:
         go-version: 1.15
 
-    - name: PWD 
-      run: pwd 
+    - name: go get 
+      run: go get -v -u ./... 
 
     - name: Test
       run: go test -v ./...
