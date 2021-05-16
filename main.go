@@ -16,6 +16,7 @@ func main() {
 
 	// get array size
 	arraySize, err := strconv.Atoi(os.Args[1])
+
 	fmt.Println(arraySize)
 	if err == nil {
 
@@ -24,8 +25,9 @@ func main() {
 		var unsorted = rand.Perm(arraySize)
 		fmt.Println(unsorted)
 
-		var sorted = sorting.MergeSort(unsorted, 0, len(unsorted))
-		fmt.Println("MergeSort array")
+		//var sorted = sorting.MergeSort(unsorted, 0, len(unsorted))
+		var sorted = sorting.QuickSort(unsorted, 0, len(unsorted)-1)
+		fmt.Println("Sorted array")
 		fmt.Println(sorted)
 
 	}

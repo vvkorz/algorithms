@@ -10,7 +10,7 @@ The repo is created to teach myself Go.
 # todo
 
  - [x] mergesort
- - [ ] quicksort
+ - [x] quicksort
  - [ ] operations for heaps
  - [ ] binary search
  - [ ] increment a binary counter

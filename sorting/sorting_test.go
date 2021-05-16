@@ -33,3 +33,17 @@ func TestMergeSort(t *testing.T) {
 	}
 
 }
+
+// TestQuickSort tests MergeSort function
+func TestQuickSort(t *testing.T) {
+
+	initial := []int{2, 1, 45, 4, 9, 7, 6, 89, 5, 10, 34, 3, 8}
+	sorted := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 34, 45, 89}
+
+	quicksorted := QuickSort(initial, 0, len(initial)-1)
+
+	if !(EqualSlices(quicksorted, sorted)) {
+		t.Error("QuickSort failed to sort")
+	}
+
+}
